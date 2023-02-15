@@ -40,9 +40,9 @@ p {
 }
 .construct {
     height: 900px;
-    width: 100%;
+    -webkit-background-size: 30% auto;
     margin-bottom: 25px;
-    background-image: url("http://103.142.14.145/under_const.png");
+    background-image: url("assets/images/UnderConstruction.png");
     background-size: cover;
     background-position: center;
 }
