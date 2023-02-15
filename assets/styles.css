@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #d9dcd6;
+}
+.header {
+    padding: 20px;
+    font-family: calibri;
+    background-color: #050505;
+    color: #ffffff;
+}
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header h1 .last-name {
+    color: #d9dcd6;
+}
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 16px;
+}
+.construct {
+    height: 900px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("http://103.142.14.145/under_const.png");
+    background-size: cover;
+    background-position: center;
+}
+.left-side {
+    float: left;
+    margin-right: 10px;
+    border-color: #ffffff;
+}
+.right-side {
+    float: right;
+    margin-left: 25px;
+}
+.content {
+    width: 45%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.sample-projects {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 50%;
+    height: 100%;
+    font-family: Calibri;
+    background-color: #cec21e;
+}
+.balance-sheet {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+.balance-sheet h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 40px;
+}
+.balance-sheet h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.balance-sheet img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: calibri;
+    font-size: 32px;
+    background-color: #030303;
+    color: #ffffff;
+}
+.projects {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: calibri;
+    font-size: 32px;
+    background-color: #cec21e;
+    color: #ffffff;
+}
+.wireframes {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: calibri;
+    font-size: 32px;
+    background-color: #050505;
+    color: #ffffff;
+}
+/*These are for eventually when I have pictures in here but I can't figure out how to make them work*/
+.contact-info img {
+    max-height: 200px;
+}
+.projects img {
+    max-height: 200px;
+}
+.wireframes img {
+    max-height: 200px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: calibri;
+    text-align: center;
+}
+.footer h2 {
+    font-size: 2;
+}
